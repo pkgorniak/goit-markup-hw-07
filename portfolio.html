@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header class="section-white border-bottom">
+      <div class="container header">
+        <!-- Logo is always a link -->
+        <a class="logo" href="./index.html">Web<span class="logo-dark">Studio</span></a>
+        <!-- Main navigation -->
+        <nav>
+          <ul class="nav nobull">
+            <li>
+              <a class="link link-nav" href="./index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="link link-active-page" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link link-nav" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Header contact links -->
+        <ul class="header-contacts nobull">
+          <li>
+            <a class="link link-contacts-header" href="mailto:info@devstudio.com">
+              <svg class="icon-contacts" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="link link-contacts-header" href="tel:+48111111111">
+              <svg class="icon-contacts" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Page content -->
+    <main>
+      <!-- Portfolio section -->
+      <section class="section">
+        <div class="container">
+          <!-- Portfolio filter-->
+          <ul class="nobull filter">
+            <li><button class="button-filter" type="button">Wszystkie</button></li>
+            <li><button class="button-filter" type="button">Strony</button></li>
+            <li><button class="button-filter" type="button">Aplikacje</button></li>
+            <li><button class="button-filter" type="button">Dizajn</button></li>
+            <li><button class="button-filter" type="button">Marketing</button></li>
+          </ul>
+          <!-- Projects -->
+          <ul class="nobull portfolio">
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img1.jpg"
+                      alt="Technocrack"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
+                      na niezabezpieczone serwery konkurencji
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Technocrack</h3>
+                    <p class="text-portfolio">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img2.jpg"
+                      alt="Grafika New Orlean vs Golden Star"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Grafika New Orlean vs Golden Star</h3>
+                    <p class="text-portfolio">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img3.jpg"
+                      alt="Restauracja Seafood"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Restauracja Seafood</h3>
+                    <p class="text-portfolio">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img4.jpg"
+                      alt="Projekt Prime"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Projekt Prime</h3>
+                    <p class="text-portfolio">Marketing</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img5.jpg"
+                      alt="Projekt Boxes"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Projekt Boxes</h3>
+                    <p class="text-portfolio">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img6.jpg"
+                      alt="Inspiration has no Borders"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Inspiration has no Borders</h3>
+                    <p class="text-portfolio">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img7.jpg"
+                      alt="Magazyn Limited Edition"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Magazyn Limited Edition</h3>
+                    <p class="text-portfolio">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img8.jpg"
+                      alt="Projekt LAB"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Projekt LAB</h3>
+                    <p class="text-portfolio">Marketing</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <figure class="card-portfolio">
+                  <div class="box">
+                    <img
+                      src="images/portfolio-img9.jpg"
+                      alt="Growing Business"
+                      width="370"
+                      height="294"
+                    />
+                    <div class="overlay-portfolio">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste eligendi
+                      nesciunt beatae accusamus at nostrum, eos odit harum id quo assumenda ipsam
+                      molestiae repudiandae natus dolor, sit quisquam iure?
+                    </div>
+                  </div>
+                  <figcaption>
+                    <h3 class="heading-portfolio">Growing Business</h3>
+                    <p class="text-portfolio">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Page footer -->
+    <footer class="section-dark-gray">
+      <div class="container footer">
+        <div>
+          <!-- Logo is always a link -->
+          <a class="logo" href="./index.html">Web<span class="logo-light">Studio</span></a>
+          <!-- Footer contact information -->
+          <address class="text-address">
+            <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+            <a class="link link-contacts-footer" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+            <a class="link link-contacts-footer" href="tel:+48111111111">+48 111 111 111</a>
+          </address>
+        </div>
+        <!-- Footer social links -->
+        <div>
+          <h3 class="heading-social-footer">Dołącz do nas</h3>
+          <div class="box-icons-social">
+            <a href="#">
+              <svg class="icon-social-footer" width="44" height="44">
+                <use
+                  href="./images/icons.svg#icon-instagram"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon-social-footer" width="44" height="44">
+                <use
+                  href="./images/icons.svg#icon-twitter"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon-social-footer" width="44" height="44">
+                <use
+                  href="./images/icons.svg#icon-facebook"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon-social-footer" width="44" height="44">
+                <use
+                  href="./images/icons.svg#icon-linkedin"
+                  width="20"
+                  height="20"
+                  x="12"
+                  y="12"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Newsletter form -->
+        <form class="form-newsletter" name="newsletter_form">
+          <label class="heading-newsletter" for="user_email">Zapisz się do newslettera</label>
+          <input
+            class="input-newsletter"
+            type="email"
+            name="email"
+            id="user_email"
+            placeholder="E-mail"
+          />
+          <button class="button-newsletter" type="submit">
+            Zapisz się
+            <svg class="icon-newsletter" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

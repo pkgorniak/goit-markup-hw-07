@@ -1,0 +1,18 @@
+@use '../utils/variables' as var;
+
+.grid {
+  list-style-type: none;
+  @include var.flexBox($direction: row, $justify: center, $align: null, $wrap: wrap, $gap: 30px);
+
+  &__item {
+    @include var.flexBasis(4);
+
+    &--col-three {
+      @include var.flexBasis(3);
+    }
+
+    &--col-six {
+      @include var.flexBasis(6);
+    }
+  }
+}

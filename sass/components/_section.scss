@@ -1,0 +1,25 @@
+@use '../utils/variables' as var;
+
+.section {
+  padding: 94px 0px;
+
+  &:nth-of-type(2) {
+    padding-top: 0;
+  }
+
+  &--light-gray {
+    background-color: var.getColor('background-light');
+  }
+
+  &__heading {
+    @include var.fontStyle(
+      $size: 36px,
+      $height: 1.166,
+      $spacing: 0.03em,
+      $weight: 700,
+      $style: null
+    );
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}

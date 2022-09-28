@@ -1,4 +1,5 @@
 @use '../utils/variables' as var;
+@use './global';
 
 .banner {
   background-color: var.getColor('background-dark');
@@ -16,6 +17,7 @@
       $wrap: null,
       $gap: null
     );
+    @extend .container;
   }
 
   &__heading {

@@ -30,7 +30,7 @@ img {
   color: rgb(33, 150, 243);
 }
 
-.container {
+.container, .footer__container, .banner__container, .header__container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;

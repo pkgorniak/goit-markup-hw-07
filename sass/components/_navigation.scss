@@ -17,6 +17,7 @@
     color: var.getColor('text-primary');
 
     &--active {
+      @extend .navigation__link;
       @include var.flexBox(
         $direction: column,
         $justify: null,

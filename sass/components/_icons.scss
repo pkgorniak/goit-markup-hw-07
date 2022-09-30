@@ -13,6 +13,7 @@
   border-radius: 50%;
 
   &--dark {
+    @extend .social-icon;
     fill: var.getColor('fill-icon-secondary');
     background-color: var.getColor('background-icon-dark');
   }

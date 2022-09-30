@@ -5,13 +5,20 @@
   @include var.flexBox($direction: row, $justify: center, $align: null, $wrap: wrap, $gap: 30px);
 
   &__item {
-    @include var.flexBasis(4);
+    flex-basis: 100%;
 
-    &--col-three {
+    &--col-3 {
+      @extend .grid__item;
       @include var.flexBasis(3);
     }
 
-    &--col-six {
+    &--col-4 {
+      @extend .grid__item;
+      @include var.flexBasis(4);
+    }
+
+    &--col-6 {
+      @extend .grid__item;
       @include var.flexBasis(6);
     }
   }

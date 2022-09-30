@@ -1,4 +1,5 @@
 @use '../utils/variables' as var;
+@use './global';
 
 .section {
   padding: 94px 0px;
@@ -8,7 +9,13 @@
   }
 
   &--light-gray {
+    @extend .section;
     background-color: var.getColor('background-light');
+  }
+
+  &__container {
+    @extend .container;
+    padding: 0 15px;
   }
 
   &__heading {

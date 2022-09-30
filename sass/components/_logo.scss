@@ -16,10 +16,12 @@
   }
 
   &--dark {
+    @extend .logo;
     color: var.getColor('logo-dark');
   }
 
   &--light {
+    @extend .logo;
     color: var.getColor('logo-light');
   }
 }

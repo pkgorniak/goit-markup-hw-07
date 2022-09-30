@@ -9,6 +9,7 @@
 }
 
 .social-icon {
+  @extend .icon;
   fill: var.getColor('fill-icon-primary');
   border-radius: 50%;
 
@@ -37,6 +38,7 @@
 }
 
 .client-icon {
+  @extend .icon;
   fill: var.getColor('fill-icon-primary');
   border: 1px solid var.getColor('fill-icon-primary');
   border-radius: 4px;

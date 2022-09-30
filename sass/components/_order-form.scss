@@ -1,4 +1,5 @@
 @use '../utils/variables' as var;
+@use './icons';
 
 .order-form {
   @include var.flexBox($direction: column, $justify: null, $align: null, $wrap: null, $gap: null);
@@ -67,6 +68,7 @@
   }
 
   &__icon {
+    @extend .icon;
     position: absolute;
     top: 30px;
     left: 12px;

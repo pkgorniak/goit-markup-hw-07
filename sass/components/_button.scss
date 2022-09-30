@@ -1,4 +1,5 @@
 @use '../utils/variables' as var;
+@use './icons';
 
 .button {
   @include var.flexBox($direction: row, $justify: center, $align: center, $wrap: null, $gap: null);
@@ -6,6 +7,7 @@
   @include var.transitionStyle((background-color, color, box-shadow));
 
   &__icon {
+    @extend .icon;
     fill: var.getColor('text-button-primary');
 
     &--end {

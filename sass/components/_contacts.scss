@@ -1,4 +1,6 @@
 @use '../utils/variables' as var;
+@use './global';
+@use './icons';
 
 .contacts {
   @include var.flexBox($direction: row, $justify: null, $align: null, $wrap: null, $gap: null);
@@ -9,11 +11,13 @@
   }
 
   &__icon {
+    @extend .icon;
     margin-right: 10px;
     fill: var.getColor('text-secondary');
   }
 
   &__link {
+    @extend .link;
     @include var.flexBox($direction: row, $justify: null, $align: center, $wrap: null, $gap: null);
     @include var.fontStyle(
       $size: 14px,

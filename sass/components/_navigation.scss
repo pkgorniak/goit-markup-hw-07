@@ -1,4 +1,5 @@
 @use '../utils/variables' as var;
+@use './global';
 
 .navigation {
   flex-grow: 1;
@@ -13,6 +14,7 @@
   }
 
   &__link {
+    @extend .link;
     @include var.fontStyle(14px, 1.143, 0.02em, 500);
     color: var.getColor('text-primary');
 
